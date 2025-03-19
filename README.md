@@ -144,6 +144,17 @@ function myFunction() {
 }
 
 myFunction();  // Output: 5
+
+?>
+
+```
+
+<h3>Error Display Enable</h3>
+<p>you can find the php.ini file in directory and make sure display_errors = On. you can find directory php.ini using php function.</p>
+
+```php
+<?php
+echo phpinfo();
 ?>
 
 ```
