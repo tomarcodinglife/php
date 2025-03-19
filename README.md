@@ -43,3 +43,28 @@
 
 <h3>Apache Not Run with same port then</h3>
 <p>If apache not run then change port from xampp\apache\conf\httpd.conf file</p>
+
+<h2> Variables in PHP</h2>
+
+<h3> Rules for variables in PHP</h3>
+<p>1. Variables Must Start with a Dollar Sign </p>
+<ul> <li>All PHP variables must begin with the dollar sign ($).</li> </ul>
+
+
+```php
+<?php
+$name = "Sujit";  // Valid
+?>
+```
+
+<p>2. Variable Names Must Start with a Letter or Underscore (_) </p>
+<ul> <li>After the dollar sign, a variable name must start with a letter (a-z, A-Z) or an underscore (_)</li></ul>
+<ul> <li>It cannot start with a number</li></ul>
+
+```php
+<?php
+$name = "John";  // Valid
+$_name = "Doe";  // Valid
+$1name = "Invalid";  // Invalid (cannot start with a number)
+?>
+```
