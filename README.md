@@ -1,7 +1,7 @@
 <h2> Introduction </h2>
 
 <h3> about php </h3>
-<p> "PHP (Hypertext Preprocessor) is a widely-used server-side scripting language designed for web development. It is mainly used for create dynamic and interactive websites and web pages. PHP can be embedded into HTML code and works on the server to generate content randomly and sent to the client's browser.</p>
+<p> "PHP (Hypertext Preprocessor) is a case-insensitive and widely-used server-side scripting language designed for web development. It is mainly used for create dynamic and interactive websites and web pages. PHP can be embedded into HTML code and works on the server to generate content randomly and sent to the client's browser.</p>
 
 <h3>Key Features of PHP</h3>
 <p>1. Server-Side Language: PHP scripts run on the server before the webpage is sent to the user. <br>
