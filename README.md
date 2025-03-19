@@ -17,9 +17,9 @@
 <h3>Download Xampp</h3>
 <p>XAMPP is a free and open-source cross-platform web server solution stack package developed by Apache Friends, consisting mainly of the Apache HTTP Server, MariaDB (formerly MySQL), and interpreters for scripts written in PHP and Perl</p>
 
-<p>1. Go to the official XAMPP website: https://www.apachefriends.org.
-2. On the homepage, click the "Download" button.
-3. Choose the version that matches your operating system (Windows, macOS, or Linux).
+<p>1. Go to the official XAMPP website: https://www.apachefriends.org.<br>
+2. On the homepage, click the "Download" button.<br>
+3. Choose the version that matches your operating system (Windows, macOS, or Linux).<br>
 4. Select the appropriate version of XAMPP that you want to download (based on your PHP version preference). </p>
 
 <h3>Install Xampp</h3>
