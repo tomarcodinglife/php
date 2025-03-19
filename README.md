@@ -55,6 +55,7 @@
 <?php
 $name = "Sujit";  // Valid
 ?>
+
 ```
 
 <p>2. Variable Names Must Start with a Letter or Underscore (_) </p>
@@ -67,4 +68,82 @@ $name = "John";  // Valid
 $_name = "Doe";  // Valid
 $1name = "Invalid";  // Invalid (cannot start with a number)
 ?>
+
+```
+
+<p>3. Variable Names Can Contain Letters, Numbers, and Underscores </p>
+<ul> <li>After the first letter or underscore, variable names can contain letters, numbers (0-9), and underscores (_)</li></ul>
+
+```php
+<?php
+$var1 = 10;      // Valid
+$name_1 = "PHP"; // Valid
+$name123 = "Code";  // Valid
+?>
+
+```
+
+<p>4. Variables are Case-Sensitive </p>
+<ul> <li>Variable names in PHP are case-sensitive. This means $name, $Name, and $NAME are considered different variables.</li></ul>
+
+```php
+<?php
+$name = "Sujit";
+$Name = "Kumar";
+echo $name;  // Output: Sujit
+echo $Name;  // Output: Kumar
+?>
+
+```
+
+<p>5. No Spaces in Variable Names </p>
+<ul><li>You cannot have spaces in variable names. If you need to separate words in a variable name, use an underscore (_) or camelCase (e.g., $myVariable).</li></ul>
+
+```php
+<?php
+$my_name = "John";   // Valid
+$myName = "John";    // Valid
+$my name = "John";   // Invalid (spaces not allowed)
+?>
+
+```
+
+<p>6. Predefined and Reserved Variable Names </p>
+<ul><li>PHP has several predefined variables such as $_GET, $_POST, $_SERVER, etc. You should avoid using these names as regular variable names to prevent conflicts.</li></ul>
+<ul><li>Avoid using PHP reserved keywords (like class, function, public, etc.) as variable names.</li></ul>
+
+```php
+<?php
+$class = "SomeClass";  // Avoid using reserved keywords
+?>
+
+```
+
+<p>7. Variables are Dynamically Typed </p>
+<ul><li>You don't need to declare the type of a variable in PHP. It is dynamically typed, meaning a variable can change its type based on the assigned value.</li></ul>
+
+```php
+<?php
+$x = 10;        // Integer
+$x = "Hello";   // String
+?>
+
+```
+
+<p>8. Variable Scope </p>
+<ul><li>Variables can have local, global, and static scope.</li></ul>
+<ul><li>To access global variables inside a function, you need to use the global keyword or $GLOBALS array.</li></ul>
+
+```php
+<?php
+$x = 5;  // Global scope
+
+function myFunction() {
+    global $x;  // Access global variable
+    echo $x;
+}
+
+myFunction();  // Output: 5
+?>
+
 ```
