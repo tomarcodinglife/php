@@ -36,4 +36,10 @@
 <h3>Test php is installed or not</h3>
 <p>after write some php code you can test it</p>
 
+<h2> XAMPP </h2>
 
+<h3>Apache</h3>
+<p>Start Apache by Xampp Control Panel application from installed pc</p>
+
+<h3>Apache Not Run with same port then</h3>
+<p>If apache not run then change port from xampp\apache\conf\httpd.conf file</p>
