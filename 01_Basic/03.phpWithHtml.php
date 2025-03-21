@@ -4,7 +4,7 @@ $h3_color = "magenta";
 
 <?php
 $title = "php with html";
-$name = "Sujit Tomar";
+$name = "Sujit Tomar"; 
 echo "<h1 style='color:green'> $title </h1>";
 ?>
 
