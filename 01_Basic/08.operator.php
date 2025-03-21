@@ -92,6 +92,8 @@ echo "<br>" . "<br>";
 $fname = "Sujit";
 $lname = "Tomar";
 
+echo 'My Name is ' . $fname. " " . $lname . "<br>"; // My Name is Sujit Tomar
+
 echo "Concatenation: " . $fname . " " . $lname . "<br>"; // Concatenation: Sujit Tomar
 $fname .= $lname; // $fname = $fname . $lname;
 echo "Concatenation assignment: " . $fname . "<br>"; // Concatenation assignment: SujitTomar
