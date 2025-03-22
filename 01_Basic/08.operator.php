@@ -76,11 +76,22 @@ echo "<br>" . "<br>";
 $x = 10;
 $y = 20;
 
-echo "And: " . ($x and $y) . "<br>"; // And: 1
+// and logical operator is work when both condition is true.
+echo "And: " . ($x and $y) . "<br>"; // And: 1 
+
+// or logical operator is work when any one condition is true.
 echo "Or: " . ($x or $y) . "<br>"; // Or: 1
+
+// xor logical operator is work when any one condition is true but not both.
 echo "Xor: " . ($x xor $y) . "<br>"; // Xor:
+
+// && logical operator is work when both condition is true.
 echo "&&: " . ($x && $y) . "<br>"; // &&
+
+// || logical operator is work when any one condition is true.
 echo "||: " . ($x || $y) . "<br>"; // ||
+
+// ! logical operator is work when condition is false.
 echo "!: " . (!$x) . "<br>"; // !
 
 echo "<br>" . "<br>";
