@@ -6,7 +6,7 @@ function hello(){
     echo "Hello World! <br>";
 }
 
-// calling function
+// calling function 
 hello();
 
 
