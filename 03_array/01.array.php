@@ -16,7 +16,7 @@ echo $names[2] . "<br>"; // Sumit
 
 echo "<br>" . "<br>";
 
-// Associative Array
+// Associative Array 
 echo "Associative Array" . "<br>";
 echo "<br>" . "<br>";
 
@@ -43,6 +43,10 @@ echo $marks[2][0] . " " . $marks[2][1] . " " . $marks[2][2] . "<br>"; // Sumit 2
 
 echo "<br>" . "<br>";
 
+?>
+
+<?php
+
 // Array Functions
 echo "Array Functions" . "<br>";
 echo "<br>" . "<br>";
@@ -63,6 +67,9 @@ echo array_unique($names) . "<br>"; // Array
 
 echo "<br>" . "<br>";
 
+?>
+
+<?php
 // Sorting Array
 echo "Sorting Array" . "<br>";
 echo "<br>" . "<br>";
@@ -100,6 +107,10 @@ print_r($age); // Array ( [2] => 23 [1] => 22 [0] => 21 )
 
 echo "<br>" . "<br>";
 
+?>
+
+<?php
+
 // Array Chunk
 echo "Array Chunk" . "<br>";
 echo "<br>" . "<br>";
@@ -108,6 +119,10 @@ $names = array("Sujit", "Amit", "Sumit", "Rahul", "Rohit", "Rajesh");
 print_r(array_chunk($names, 2)); // Array ( [0] => Array ( [0] => Sujit [1] => Amit ) [1] => Array ( [0] => Sumit [1] => Rahul ) [2] => Array ( [0] => Rohit [1] => Rajesh ) )
 
 echo "<br>" . "<br>";
+
+?>
+
+<?php
 
 // Array Combine
 echo "Array Combine" . "<br>";
@@ -118,6 +133,10 @@ $age = array("21", "22", "23");
 print_r(array_combine($names, $age)); // Array ( [Sujit] => 21 [Amit] => 22 [Sumit] => 23 )
 
 echo "<br>" . "<br>";
+
+?>
+
+<?php
 
 // Array Difference
 echo "Array Difference" . "<br>";
@@ -139,6 +158,10 @@ print_r(array_intersect($names, $age)); // Array ( )
 
 echo "<br>" . "<br>";
 
+?>
+
+<?php
+
 // Array Search
 echo "Array Search" . "<br>";
 
@@ -147,6 +170,10 @@ $names = array("Sujit", "Amit", "Sumit");
 echo array_search("Amit", $names); // 1
 
 echo "<br>" . "<br>";
+
+?>
+
+<?php
 
 // Array Replace
 echo "Array Replace" . "<br>";
@@ -157,6 +184,10 @@ print_r(array_replace($names, array("Rahul", "Rohit", "Rajesh"))); // Array ( [0
 
 echo "<br>" . "<br>";
 
+?>
+
+<?php
+
 // Array Reverse
 echo "Array Reverse" . "<br>";
 
@@ -165,6 +196,10 @@ $names = array("Sujit", "Amit", "Sumit");
 print_r(array_reverse($names)); // Array ( [0] => Sumit [1] => Amit [2] => Sujit )
 
 echo "<br>" . "<br>";
+
+?>
+
+<?php
 
 // Array Slice
 echo "Array Slice" . "<br>";
@@ -175,6 +210,10 @@ print_r(array_slice($names, 2)); // Array ( [0] => Sumit [1] => Rahul [2] => Roh
 
 echo "<br>" . "<br>";
 
+?>
+
+<?php
+
 // Array Sum
 echo "Array Sum" . "<br>";
 
@@ -183,6 +222,10 @@ $age = array("21", "22", "23");
 echo array_sum($age); // 66
 
 echo "<br>" . "<br>";
+
+?>
+
+<?php
 
 // Array Product
 echo "Array Product" . "<br>";
@@ -193,6 +236,10 @@ echo array_product($age); // 13608
 
 echo "<br>" . "<br>";
 
+?>
+
+<?php
+
 // Array Unique
 echo "Array Unique" . "<br>";
 
@@ -201,6 +248,10 @@ $names = array("Sujit", "Amit", "Sumit", "Amit");
 print_r(array_unique($names)); // Array ( [0] => Sujit [1] => Amit [2] => Sumit )
 
 echo "<br>" . "<br>";
+
+?>
+
+<?php
 
 // Array Values
 echo "Array Values" . "<br>";
@@ -211,6 +262,10 @@ print_r(array_values($names)); // Array ( [0] => Sujit [1] => Amit [2] => Sumit 
 
 echo "<br>" . "<br>";
 
+?>
+
+<?php
+
 // Array Keys
 echo "Array Keys" . "<br>";
 
@@ -219,6 +274,10 @@ $names = array("Sujit", "Amit", "Sumit");
 print_r(array_keys($names)); // Array ( [0] => 0 [1] => 1 [2] => 2 )
 
 echo "<br>" . "<br>";
+
+?>
+
+<?php
 
 // Array Pop
 echo "Array Pop" . "<br>";
@@ -229,6 +288,10 @@ echo array_pop($names); // Sumit
 
 echo "<br>" . "<br>";
 
+?>
+
+<?php
+
 // Array Push
 echo "Array Push" . "<br>";
 
@@ -237,6 +300,11 @@ $names = array("Sujit", "Amit", "Sumit");
 echo array_push($names, "Rahul"); // 4
 
 echo "<br>" . "<br>";
+
+
+?>
+
+<?php
 
 // Array Shift
 echo "Array Shift" . "<br>";
@@ -247,6 +315,10 @@ echo array_shift($names); // Sujit
 
 echo "<br>" . "<br>";
 
+?>
+
+<?php
+
 // Array Unshift
 echo "Array Unshift" . "<br>";
 
@@ -255,6 +327,10 @@ $names = array("Sujit", "Amit", "Sumit");
 echo array_unshift($names, "Rahul"); // 4
 
 echo "<br>" . "<br>";
+
+?>
+
+<?php
 
 // Array Merge
 echo "Array Merge" . "<br>";
@@ -265,6 +341,10 @@ $age = array("21", "22", "23");
 print_r(array_merge($names, $age)); // Array ( [0] => Sujit [1] => Amit [2] => Sumit [3] => 21 [4] => 22 [5] => 23 )
 
 echo "<br>" . "<br>";
+
+?>
+
+<?php
 
 // Array Multisort
 echo "Array Multisort" . "<br>";
@@ -279,6 +359,10 @@ print_r($age); // Array ( [0] => 22 [1] => 23 [2] => 21 )
 
 echo "<br>" . "<br>";
 
+?>
+
+<?php
+
 // Array Pad
 echo "Array Pad" . "<br>";
 
@@ -288,6 +372,10 @@ print_r(array_pad($names, 5, "Rahul")); // Array ( [0] => Sujit [1] => Amit [2] 
 
 echo "<br>" . "<br>";
 
+?>
+
+<?php
+
 // Array Fill
 echo "Array Fill" . "<br>";
 
@@ -295,12 +383,20 @@ print_r(array_fill(0, 5, "Sujit")); // Array ( [0] => Sujit [1] => Sujit [2] => 
 
 echo "<br>" . "<br>";
 
+?>
+
+<?php
+
 // Array Fill Keys
 echo "Array Fill Keys" . "<br>";
 
 print_r(array_fill_keys(array("Sujit", "Amit", "Sumit"), "21")); // Array ( [Sujit] => 21 [Amit] => 21 [Sumit] => 21 )
 
 echo "<br>" . "<br>";
+
+?>
+
+<?php
 
 // Array Column
 echo "Array Column" . "<br>";
@@ -316,6 +412,11 @@ print_r(array_column($marks, 1)); // Array ( [0] => 21 [1] => 22 [2] => 23 )
 
 echo "<br>" . "<br>";
 
+
+?>
+
+<?php
+
 // Array Search
 echo "Array Search" . "<br>";
 
@@ -324,6 +425,10 @@ $names = array("Sujit", "Amit", "Sumit");
 echo array_search("Amit", $names); // 1
 
 echo "<br>" . "<br>";
+
+?>
+
+<?php
 
 // Array under Array
 echo "Array under Array" . "<br>";
