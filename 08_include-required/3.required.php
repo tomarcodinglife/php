@@ -1,0 +1,13 @@
+<!-- // required provide error when not load file -->
+
+<?php
+
+require("./header.php");
+
+
+for ($i=0; $i<5; $i++){
+    require_once("./footer.php");
+}
+
+
+?>
