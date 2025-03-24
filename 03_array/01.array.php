@@ -46,6 +46,25 @@ echo "<br>" . "<br>";
 ?>
 
 <?php
+// Multidimensional Associative Array
+echo "Multidimensional Associative Array" . "<br>"; 
+echo "<br>" . "<br>";
+
+$marks = array(
+    array("name" => "Sujit", "age" => "21", "marks" => "90"),
+    array("name" => "Amit", "age" => "22", "marks" => "80"),
+    array("name" => "Sumit", "age" => "23", "marks" => "70")
+);
+
+echo $marks[0]["name"] . " " . $marks[0]["age"] . " " . $marks[0]["marks"] . "<br>"; // Sujit 21 90
+echo $marks[1]["name"] . " " . $marks[1]["age"] . " " . $marks[1]["marks"] . "<br>"; // Amit 22 80
+echo $marks[2]["name"] . " " . $marks[2]["age"] . " " . $marks[2]["marks"] . "<br>"; // Sumit 23 70
+
+echo "<br>" . "<br>";
+
+?>
+
+<?php
 
 // Array Functions
 echo "Array Functions" . "<br>";
@@ -207,6 +226,19 @@ echo "Array Slice" . "<br>";
 $names = array("Sujit", "Amit", "Sumit", "Rahul", "Rohit", "Rajesh");
 
 print_r(array_slice($names, 2)); // Array ( [0] => Sumit [1] => Rahul [2] => Rohit [3] => Rajesh )
+
+echo "<br>" . "<br>";
+
+?>
+
+<?php
+
+// Array Splice
+echo "Array Splice" . "<br>";
+
+$names = array("Sujit", "Amit", "Sumit", "Rahul", "Rohit", "Rajesh");
+
+print_r(array_splice($names, 2)); // Array ( [0] => Sumit [1] => Rahul [2] => Rohit [3] => Rajesh )
 
 echo "<br>" . "<br>";
 
