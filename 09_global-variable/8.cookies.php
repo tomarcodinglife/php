@@ -1,5 +1,13 @@
 <?php
 
+// syntax : setcookie(name, value, expire, path, domain, secure, httponly);
+
+// name (string): The name of the cookie.
+// value (string): The value of the cookie.
+// expire (int): The time when the cookie expires (in seconds). You can set it using time() + seconds.
+// path (string): The path where the cookie is available (default is /).
+// domain (string): The domain where the cookie is available (default is current domain).
+// secure (bool): If true, cookie will only be sent over HTTPS.
 
 
 setcookie("username", "SUJIT956", (time()+86400*24));
