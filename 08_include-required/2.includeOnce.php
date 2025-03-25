@@ -8,7 +8,7 @@ for ($i=0; $i<5; $i++){
     include ("./content.php");
 }
 
-echo "........................include one section..................";
+echo "........................include one section.................";
 
 for ($i=0; $i<5; $i++){
     include_once ("./header.php");
