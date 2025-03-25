@@ -2,7 +2,7 @@
 
 <?php
 
-require("./header.php");
+require("./head.php");
 
 
 for ($i=0; $i<5; $i++){

@@ -11,7 +11,7 @@ for ($i=0; $i<5; $i++){
 echo "........................include one section.................";
 
 for ($i=0; $i<5; $i++){
-    include_once ("./header.php");
+    include_once ("./head.php");
 }
 
 
