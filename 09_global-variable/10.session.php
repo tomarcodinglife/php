@@ -26,18 +26,18 @@ session_start();
 
 if(isset($_POST['button']))
     {
-        if($_POST['button']=="set");
+        if($_POST['button']=="set")
         {
             $val=$_POST['user'];
             $_SESSION['user'] = $val;
         }
 
-        if($_POST['button']=="get");
+        if($_POST['button']=="get")
         {
            echo $_SESSION['user'];
         }
 
-        if($_POST['button']=="delete");
+        if($_POST['button']=="delete")
         {
            session_destroy();
         }
