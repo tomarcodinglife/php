@@ -10,7 +10,9 @@
 
         <input type="text" placeholder="File Name" name="file-name" required>
         <br></br>
-        <textarea name="content" id="content" required></textarea>
+        <textarea name="content" id="content" required>
+            
+        </textarea>
         <br></br>
         <button type="submit">Create File</button>
     </form>
@@ -19,9 +21,9 @@
 
 <?php
 
-if (isset ($_post['file-name'])){
-    $fileName = $_post['file-name'];
-    $content = $_post['content'];
+if (isset($_POST['file-name'])){
+    $fileName = $_POST['file-name'].".txt" ;
+    $content = "'" . $_POST['content'] . "'";
 
     $file = fopen($fileName,"w") or die ("Unable to create file");
     fwrite($file, $content);
