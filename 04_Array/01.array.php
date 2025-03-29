@@ -82,7 +82,9 @@ echo array_merge($names, $age) . "<br>"; // Array
 echo array_sum($age) . "<br>"; // 66
 echo array_product($age) . "<br>"; // 13608
 echo array_reverse($names) . "<br>"; // Array
-echo array_unique($names) . "<br>"; // Array
+
+// duplicate data remove
+echo array_unique($names) . "<br>"; // Array 
 
 echo "<br>" . "<br>";
 
@@ -476,6 +478,39 @@ echo $marks[1][0] . " " . $marks[1][1] . " " . $marks[1][2] . "<br>"; // Amit 22
 echo $marks[2][0] . " " . $marks[2][1] . " " . $marks[2][2] . "<br>"; // Sumit 23 70
 
 echo "<br>" . "<br>";
+
+// is_array
+$myuser = ["Amit", "Sujit", "Sumit", "Rahul"];
+echo is_array($myuser); // 1 means yes 
+
+echo "<br>";
+$myuserA = "Amit";
+echo is_array($myuserA); // nothing show if not array
+
+
+// unset array
+$array12 = ["Amit", "Sujit", "Sumit", "Rahul"];
+unset($array12[2]); // remove sumit
+echo "<br>";
+print_r($array12); // Array ( [0] => Amit [1] => Sujit [3] => Rahul ) 
+echo "<br> </br>";
+
+
+// array key 
+$myuserdetail = ["name"=>"Sujit Tomar", "age"=>"22", "email"=>"sujit@google.com"];
+print_r(array_keys($myuserdetail)); // Array ( [0] => name [1] => age [2] => email )
+echo "<br> </br>";
+// array value
+print_r(array_values($myuserdetail)); // Array ( [0] => Sujit Tomar [1] => 22 [2] => sujit@google.com ) 
+echo "<br> </br>";
+// array print in string
+echo implode($myuserdetail); // Sujit Tomar22sujit@google.com
+echo "<br> </br>";
+// string to array print in 
+$mystr = "hello world, i am sujit tomar";
+echo $mystr;
+echo "<br> </br>";
+print_r(explode(" ", $mystr)) // array convert as per space (Array ( [0] => hello [1] => world, [2] => i [3] => am [4] => sujit [5] => tomar ))
 
 
 ?>
